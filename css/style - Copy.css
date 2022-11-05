@@ -1,0 +1,147 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background: rgb(132, 138, 145)!important;
+}
+header li{
+display: flex;
+flex-direction: row;
+list-style: none;
+font-family:'Source Sans Pro', sans-serif;
+font-weight: bold;
+color:rgb(250, 250, 250);
+padding: 20px 50px 20px 0px;
+}
+#signup{
+background:rgb(55, 61, 76);
+padding: 10px 20px 10px 20px;
+margin-top:10px;
+margin-bottom: 10px;
+border-radius: 5px;
+color: white;
+}
+header ul{
+padding-right: 50px;
+display: flex;
+flex-direction: row;
+color: white;
+}
+.sec1{
+clear: both;
+background: rgb(30, 38, 53)
+
+}
+.brand{
+float: left;
+width: 50%;
+padding: 200px 200px 200px 100px;
+background: rgb(30, 38, 53);
+font-family: 'Source Sans Pro', sans-serif;
+color: lightgray;
+}
+.catimage{
+float: right;
+width: 50%;
+background: rgb(30, 38, 53);
+padding-bottom: 74px;
+}
+#kitty{
+width: 650px;
+border: 20px solid white;
+margin-top: 100px;
+}
+.order{
+  text-decoration: none;
+  font-weight: bold;
+  color:rgb(30, 38, 53);
+  background: white;
+  padding: 10px;
+  margin-right: 50px;
+  margin-top: 100px;
+}
+.create{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  margin-top: 100px;
+}
+main section{
+  display: flex;
+}
+.testsec{
+  height: 100px;
+  flex: 1
+  width: 50%;
+border: 5px solid black;
+
+}
+.sectors{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+width: 45%;
+}
+.howhelp{
+display: flex;
+flex-direction: column;
+width: 40%;
+padding:200px 100px 100px 100px;
+font-family: 'Source Sans Pro', sans-serif;
+border: 5px solid black;
+}
+.fourimg{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 40%;
+border: 5px solid black;
+}
+.imageone, .imagetwo, .imagethree, .imagefour{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 50%;
+}
+.cone{
+  width:250px;
+}
+.title{
+  padding right:200px;;
+}
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

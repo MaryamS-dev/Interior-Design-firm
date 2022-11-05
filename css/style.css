@@ -1,0 +1,156 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background: rgb(243, 245, 247)!important;
+  width: 100%;
+}
+header li{
+list-style: none;
+font-family:'Source Sans Pro', sans-serif;
+font-weight: bold;
+color:rgb(47, 46, 51);
+padding: 10px 75px 10px 0px;
+}
+#signup{
+background:rgb(55, 61, 76);
+padding: 10px 20px 10px 20px;
+border-radius: 5px;
+color: white;
+}
+header ul{
+padding-right: 50px;
+color: white;
+}
+.sec1{
+background: rgb(30, 38, 53)
+}
+.brand{
+width: 40%;
+padding: 200px 150px 200px 100px;
+background: rgb(30, 38, 53);
+font-family: 'Source Sans Pro', sans-serif;
+color: lightgray;
+}
+.livingimg{
+width:800px;
+background: rgb(30, 38, 53);
+border: 10px solid white;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+#kitty{
+width: 50%;
+padding: 10px;
+}
+.contactus{
+  text-decoration: none;
+  font-weight: bold;
+  color:rgb(30, 38, 53);
+  background: white;
+  padding: 10px;
+  margin: 50px 50px 0px 0px;
+}
+.create{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  margin-top: 55px;
+}
+
+.sectors{
+width: 50%;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.howhelp{
+width: 50%;
+padding:200px 100px 200px 100px;
+font-family: 'Source Sans Pro', sans-serif;
+justify-content: center;
+}
+.help{
+font-size: 40px;
+font-weight: bold;
+justify-content: center;
+color:rgb(182, 86, 21)
+}
+.imageone, .imagetwo, .imagethree, .imagefour{
+width: 50%;
+font-family: 'Source Sans Pro', sans-serif;
+flex-direction: column;
+padding-bottom: 20px;
+justify-content: center;
+}
+.cone{
+  width:95%;
+}
+.title{
+  padding right:200px;
+  font-weight: bold;
+  color:rgb(182, 86, 21)
+}
+.work{
+font-family: 'Source Sans Pro', sans-serif;
+flex-direction: column;
+padding: 0px 200px 50px 200px;
+background:rgb(30, 38, 53);
+color: white;
+width: 100%;
+align-content: center;
+}
+.createacc{
+
+}
+.createimg{
+width: 60%;
+}
+.intimg{
+width: 100%;
+}
+.createwords{
+width: 40%;
+flex-direction: column;
+font-family: 'Source Sans Pro', sans-serif;
+padding: 60px;
+}
+
+
+footer{
+background:rgb(30, 38, 53);
+width: 100%;
+}
+footer ul{
+color: rgb(175, 189, 203);
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 18px;
+font-weight: bold;
+padding: 20px 0px 20px 400px;
+
+}
+footer li{
+padding-right: 70px;
+
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
